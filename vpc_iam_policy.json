@@ -1,0 +1,24 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeVpcs",
+                "ec2:CreateVpc",
+                "ec2:DeleteVpc",
+                "ec2:DescribeVpcPeeringConnections",
+                "ec2:CreateVpcPeeringConnection",
+                "ec2:AcceptVpcPeeringConnection",
+                "ec2:DeleteVpcPeeringConnection",
+                "ec2:DescribeRouteTables",
+                "ec2:CreateRoute",
+                "ec2:DeleteRoute",
+                "ec2:DescribeTags"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
+
